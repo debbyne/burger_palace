@@ -46,17 +46,17 @@ nav{
    border-radius: 30px;
    border-bottom-right-radius: 0;
  }
- .description{
+ .para{
      float: left;
      font-size: 20px;
      margin-right: 6%;
      margin-left: 5%;
      padding-top: 200px;
  }
- .description button{
+ .para button{
      margin-top: 50px;
  }
- .description p{
+ .para p{
      margin-top: 50px;
  }
  .img{
