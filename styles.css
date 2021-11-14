@@ -63,3 +63,39 @@ nav{
     height: 300px;
     margin-left: 50%;
  }
+ .grid{
+  padding-top: 250px ;
+  clear: both;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 358px;
+  background-color: #cceaec;
+  padding-bottom: 150px;
+}
+.grid h5{
+  color: rgb(55, 42, 92);
+}
+.three{
+  border: 2px solid grey;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 15px;
+  height: 300px;
+  width: 350px;
+}
+#center-box{
+  height: 450px;
+  margin-top: -80px;
+  padding-top: 75px;
+}
+​
+.our{
+  margin-top: 100px;
+}
+.our h2{
+font-size: 40px;
+border-bottom: 10px solid yellow;
+margin-left:  45%;
+margin-right: 48%;
+}
