@@ -107,3 +107,117 @@ margin-right: 48%;
   font-size: 100px;
   color: #F6B400;
 }
+.doubles .but {
+  text-align: center;
+}
+.doubles .row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.doubles h1 span {
+  color: orange;
+}
+
+.row .dab1 {
+  border: solid rgb(240, 236, 236);
+  border-width: 1px;
+  margin: 40px;
+  width: 60%;
+  border-radius: 14%;
+  height: 90%;
+  font-size: 80%;
+}
+
+.row .dab2 {
+  border: solid rgb(240, 236, 236);
+  border-width: 1px;
+  margin: 40px;
+  width: 60%;
+  border-radius: 15%;
+  height: 90%;
+  font-size: 80%;
+}
+.row .dab3 {
+  border: solid rgb(240, 236, 236);
+  border-width: 1px;
+  margin: 40px;
+  width: 60%;
+  border-radius: 15%;
+  height: 90%;
+  font-size: 80%;
+}
+.row .dab4 {
+  border: solid rgb(240, 236, 236);
+  border-width: 1px;
+  margin: 40px;
+  width: 60%;
+  border-radius: 15%;
+  height: 90%;
+  font-size: 80%;
+}
+
+.row .dab5 {
+  border: solid rgb(240, 236, 236);
+  border-width: 1px;
+  margin: 40px;
+  width: 60%;
+  border-radius: 15%;
+  height: 90%;
+  font-size: 80%;
+}
+.row .dab6 {
+  border: solid rgb(240, 236, 236);
+  border-width: 1px;
+  margin: 40px;
+  width: 60%;
+  border-radius: 15%;
+  height: 90%;
+  font-size: 80%;
+}
+.about-us {
+  margin-top: 150px;
+}
+.heading {
+  font-size: 25px;
+}
+
+.advert-img {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+.disc {
+  background-color: #ffbb00;
+  height: 600px;
+}
+.even {
+  font-size: 210%;
+  font-weight: 120;
+  padding-left: 10px;
+}
+.app {
+  height: 90px;
+  width: 100px;
+}
+.site ul {
+  list-style-type: none;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}.ddeck span{
+  font-style: normal;
+
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.enclose{
+  display: flex;
+  flex-direction: column;
+}
