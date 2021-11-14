@@ -1,233 +1,40 @@
-h1 {
-    font-style: italic;
-  }
-  .both {
-    display: flex;
-    justify-items: left;
-    text-align: left;
-    padding-top: 15px;
-  }
-  .top {
-    color: orange;
-  }
-  
-  /* .parent {
-    display: flex;
-    justify-content: space-around;
-    /* align-items: center; */
-  /* } */ */
-  
-  .nav-image {
-    display: flex;
-    align-items: center;
-  }
-  
-  #nav {
-    height: 680px;
-    background: linear-gradient(130deg, white 50%, #d8b61e 0%);
-  }
-  .nav-bar {
-    display: flex;
-    justify-content: space-around;
-    text-align: right;
-    flex-grow: 0.3;
-  }
-  .nav_bar {
-    /* display: flex;
-    justify-content: space-around; */
-    text-decoration: none;
-    color: black;
-    word-spacing: 5px;
-    flex-grow: 0.3;
-    width: 100px;
-    
-  }
-  
-  /* .basket {
-    height: 30px; */
-  /* } */
-  
-  .row {
-    display: flex;
-  }
-  .intro-img {
-    text-align: right;
-  }
-  .advert {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-  }
-  .heading {
-    font-size: xx-small;
-    font-weight: 50;
- 
-
-  
-    margin-top: 100px;
-  }
-  .home .content {
-    flex: 1 1 40rem;
-    padding-top: 6.5rem;
-    flex-wrap: wrap;
-  }
-  .row .quality {
-    width: 25%;
-    border: solid black;
-    margin-left: 20px;
-    border-radius: 5%;
-    height: 60%;
-    border-width: 1px;
-    text-align: center;
-    padding-top: 50px;
-  }
-  .about-us .fast {
-    border: solid black;
-    margin: auto;
-    width: 30%;
-    height: 120%;
-    border-radius: 5%;
-    border-width: 1px;
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 30px;
-  }
-  .row .meals {
-    border: solid black;
-    width: 25%;
-    margin-left: 20px;
-    border-radius: 5%;
-    height: 60%;
-    border-width: 1px;
-    text-align: center;
-    padding-top: 50px;
-  }
-  
-  .heading button {
-    margin-top: 30px;
-    background-color: hsl(36, 100%, 50%);
-    padding: 10px 15px;
-    color: seashell;
-    text-align: center;
-    border-radius: 20px 20px 0px 20px;
-    border: none;
-  }
-  
-  .heading button:hover {
-    background-color: blue;
-    cursor: pointer;
-  }
-  .doubles .but {
-    text-align: center;
-  }
-  .doubles .row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-  }
-  
-  .doubles h1 span {
-    color: orange;
-  }
-  
-  .row .dab1 {
-    border: solid rgb(240, 236, 236);
-    border-width: 1px;
-    margin: 40px;
-    width: 60%;
-    border-radius: 14%;
-    height: 90%;
-    font-size: 80%;
-  }
-  
-  .row .dab2 {
-    border: solid rgb(240, 236, 236);
-    border-width: 1px;
-    margin: 40px;
-    width: 60%;
-    border-radius: 15%;
-    height: 90%;
-    font-size: 80%;
-  }
-  .row .dab3 {
-    border: solid rgb(240, 236, 236);
-    border-width: 1px;
-    margin: 40px;
-    width: 60%;
-    border-radius: 15%;
-    height: 90%;
-    font-size: 80%;
-  }
-  .row .dab4 {
-    border: solid rgb(240, 236, 236);
-    border-width: 1px;
-    margin: 40px;
-    width: 60%;
-    border-radius: 15%;
-    height: 90%;
-    font-size: 80%;
-  }
-  
-  .row .dab5 {
-    border: solid rgb(240, 236, 236);
-    border-width: 1px;
-    margin: 40px;
-    width: 60%;
-    border-radius: 15%;
-    height: 90%;
-    font-size: 80%;
-  }
-  .row .dab6 {
-    border: solid rgb(240, 236, 236);
-    border-width: 1px;
-    margin: 40px;
-    width: 60%;
-    border-radius: 15%;
-    height: 90%;
-    font-size: 80%;
-  }
-  .about-us {
-    margin-top: 150px;
-  }
-  .heading {
-    font-size: 25px;
-  }
-  
-  .advert-img {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 40px;
-  }
-  .disc {
-    background-color: #ffbb00;
-    height: 600px;
-  }
-  .even {
-    font-size: 210%;
-    font-weight: 120;
-    padding-left: 10px;
-  }
-  .app {
-    height: 90px;
-    width: 100px;
-  }
-  .site ul {
-    list-style-type: none;
-  }
-  .foot {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }.ddeck span{
-    font-style: normal;
-
-  }
-  .footer{
-    display: flex;
-    justify-content: space-between;
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
 }
-  .enclose{
-    display: flex;
-    flex-direction: column;
-  }
+.polygon{
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  clip-path: polygon(11% 0, 100% 0%, 100% 100%, 0% 100%);
+  background-color: #F6B400;right: 0;
+
+}
+.header{
+  position: relative;
+}
+nav{
+  display: flex ;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.nav-bar ul{
+  display: flex;
+  justify-content: space-around;
+}
+.nav-bar li{
+  padding: 25px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-bar li:hover{
+  border-bottom: 5px solid orange;
+}
+.logo-part{
+  display: flex;
+  justify-content: space-around;
+}
+.logo-part h3{
+  font-size: 35px;}
