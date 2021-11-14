@@ -219,4 +219,15 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }.ddeck span{
+    font-style: normal;
+
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+}
+  .enclose{
+    display: flex;
+    flex-direction: column;
   }
