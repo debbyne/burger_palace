@@ -202,6 +202,10 @@ margin-right: 48%;
   height: 90px;
   width: 100px;
 }
+.phones{
+  display: flex;
+  background-color: #F6B400;
+}
 .footer{
   clear: both;
   display: flex;
